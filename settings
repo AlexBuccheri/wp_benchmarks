@@ -1,0 +1,5 @@
+TiO2    G0W0    (PP, AC, CD)     PBEsol    6 x 6 x 10
+ZnO     G0W0    (PP, AC, CD)     PBEsol    8 x 8 x 5
+Si         G0W0    (PP, AC, CD)     PBEsol    8 x 8 x 8
+A1        G0W0   (PP, AC, CD)      PBEsol    6 x 6 x 6
+E1        G0W0    (PP, AC, CD)     PBEsol    12 x 12 x 1

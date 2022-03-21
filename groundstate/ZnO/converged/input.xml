@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input>
+
+   <title>ZnO-PBEsol</title>
+
+   <structure speciespath=".">
+      <crystal  scale="1.8897259886">
+         <basevect>-1.624700  -2.814063   0.000000</basevect>
+         <basevect>-1.624700   2.814063   0.000000</basevect>
+         <basevect> 0.000000   0.000000  -5.203800</basevect>
+      </crystal>
+
+      <species speciesfile="Zn.xml" rmt="1.90">
+        <atom coord="0.666666667  0.333333333  0.000000000"></atom>
+	    <atom coord="0.333333333  0.666666667  0.500000000"></atom>
+      </species>
+
+      <species speciesfile="O.xml" rmt="1.55">
+	    <atom coord="0.666666667  0.333333333  0.617900000"></atom>
+        <atom coord="0.333333333  0.666666667  0.117900000"></atom>
+      </species>
+   </structure>
+
+   <groundstate
+      do="fromscratch"
+      rgkmax="8.0"
+      ngridk="8 8 5"
+      xctype="GGA_PBE_SOL"
+      epsengy="1.e-6"
+      gmaxvr="24.0"
+      lorecommendation="false"
+      >
+   </groundstate>
+
+</input>

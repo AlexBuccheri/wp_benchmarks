@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plot1d>
+  <title>silicon-primitive-PBEsol</title>
+  <grid>
+    <axis label=" Distance" latexunit=" a_0" graceunit=" graceunit"/>
+    <axis label=" Density" latexunit=" ???" graceunit=" graceunit"/>
+    <function name="">
+      <point distance="0.000000000" value="1985.188367"/>
+      <point distance="0.4488116670E-01" value="508.8829884"/>
+      <point distance="0.8976233341E-01" value="151.8271641"/>
+      <point distance="0.1346435001" value="52.26361379"/>
+      <point distance="0.1795246668" value="24.33216220"/>
+      <point distance="0.2244058335" value="15.94991449"/>
+      <point distance="0.2692870002" value="12.60490133"/>
+      <point distance="0.3141681669" value="10.45462433"/>
+      <point distance="0.3590493336" value="8.620780628"/>
+      <point distance="0.4039305003" value="6.977789526"/>
+      <point distance="0.4488116670" value="5.545000071"/>
+      <point distance="0.4936928338" value="4.340022430"/>
+      <point distance="0.5385740005" value="3.357154583"/>
+      <point distance="0.5834551672" value="2.574160801"/>
+      <point distance="0.6283363339" value="1.961533590"/>
+      <point distance="0.6732175006" value="1.488845781"/>
+      <point distance="0.7180986673" value="1.128154736"/>
+      <point distance="0.7629798340" value="0.8554192964"/>
+      <point distance="0.8078610007" value="0.6507821008"/>
+      <point distance="0.8527421674" value="0.4982845471"/>
+      <point distance="0.8976233341" value="0.3853479320"/>
+      <point distance="0.9425045008" value="0.3021998936"/>
+      <point distance="0.9873856675" value="0.2413332983"/>
+      <point distance="1.032266834" value="0.1970339117"/>
+      <point distance="1.077148001" value="0.1649856639"/>
+      <point distance="1.122029168" value="0.1419499440"/>
+      <point distance="1.166910334" value="0.1255093019"/>
+      <point distance="1.211791501" value="0.1138654226"/>
+      <point distance="1.256672668" value="0.1056828554"/>
+      <point distance="1.301553834" value="0.9997234303E-01"/>
+      <point distance="1.346435001" value="0.9600589437E-01"/>
+      <point distance="1.391316168" value="0.9325386736E-01"/>
+      <point distance="1.436197335" value="0.9133605310E-01"/>
+      <point distance="1.481078501" value="0.8998293801E-01"/>
+      <point distance="1.525959668" value="0.8900578525E-01"/>
+      <point distance="1.570840835" value="0.8827426288E-01"/>
+      <point distance="1.615722001" value="0.8770001831E-01"/>
+      <point distance="1.660603168" value="0.8722472411E-01"/>
+      <point distance="1.705484335" value="0.8681137580E-01"/>
+      <point distance="1.750365501" value="0.8643795503E-01"/>
+      <point distance="1.795246668" value="0.8609281776E-01"/>
+      <point distance="1.840127835" value="0.8577134648E-01"/>
+      <point distance="1.885009002" value="0.8547352854E-01"/>
+      <point distance="1.929890168" value="0.8520221519E-01"/>
+      <point distance="1.974771335" value="0.8496187977E-01"/>
+      <point distance="2.019652502" value="0.8459871876E-01"/>
+      <point distance="2.064533668" value="0.8458661058E-01"/>
+      <point distance="2.109414835" value="0.8457558529E-01"/>
+      <point distance="2.154296002" value="0.8456730018E-01"/>
+      <point distance="2.199177169" value="0.8456287531E-01"/>
+      <point distance="2.244058335" value="0.8456287531E-01"/>
+      <point distance="2.288939502" value="0.8456730018E-01"/>
+      <point distance="2.333820669" value="0.8457558529E-01"/>
+      <point distance="2.378701835" value="0.8458661058E-01"/>
+      <point distance="2.423583002" value="0.8459871876E-01"/>
+      <point distance="2.468464169" value="0.8496187977E-01"/>
+      <point distance="2.513345335" value="0.8520221519E-01"/>
+      <point distance="2.558226502" value="0.8547352854E-01"/>
+      <point distance="2.603107669" value="0.8577134648E-01"/>
+      <point distance="2.647988836" value="0.8609281776E-01"/>
+      <point distance="2.692870002" value="0.8643795503E-01"/>
+      <point distance="2.737751169" value="0.8681137580E-01"/>
+      <point distance="2.782632336" value="0.8722472411E-01"/>
+      <point distance="2.827513502" value="0.8770001831E-01"/>
+      <point distance="2.872394669" value="0.8827426288E-01"/>
+      <point distance="2.917275836" value="0.8900578525E-01"/>
+      <point distance="2.962157003" value="0.8998293801E-01"/>
+      <point distance="3.007038169" value="0.9133605310E-01"/>
+      <point distance="3.051919336" value="0.9325386736E-01"/>
+      <point distance="3.096800503" value="0.9600589437E-01"/>
+      <point distance="3.141681669" value="0.9997234303E-01"/>
+      <point distance="3.186562836" value="0.1056828554"/>
+      <point distance="3.231444003" value="0.1138654226"/>
+      <point distance="3.276325169" value="0.1255093019"/>
+      <point distance="3.321206336" value="0.1419499440"/>
+      <point distance="3.366087503" value="0.1649856639"/>
+      <point distance="3.410968670" value="0.1970339117"/>
+      <point distance="3.455849836" value="0.2413332983"/>
+      <point distance="3.500731003" value="0.3021998936"/>
+      <point distance="3.545612170" value="0.3853479320"/>
+      <point distance="3.590493336" value="0.4982845471"/>
+      <point distance="3.635374503" value="0.6507821008"/>
+      <point distance="3.680255670" value="0.8554192964"/>
+      <point distance="3.725136836" value="1.128154736"/>
+      <point distance="3.770018003" value="1.488845781"/>
+      <point distance="3.814899170" value="1.961533590"/>
+      <point distance="3.859780337" value="2.574160801"/>
+      <point distance="3.904661503" value="3.357154583"/>
+      <point distance="3.949542670" value="4.340022430"/>
+      <point distance="3.994423837" value="5.545000071"/>
+      <point distance="4.039305003" value="6.977789526"/>
+      <point distance="4.084186170" value="8.620780628"/>
+      <point distance="4.129067337" value="10.45462433"/>
+      <point distance="4.173948504" value="12.60490133"/>
+      <point distance="4.218829670" value="15.94991449"/>
+      <point distance="4.263710837" value="24.33216220"/>
+      <point distance="4.308592004" value="52.26361379"/>
+      <point distance="4.353473170" value="151.8271641"/>
+      <point distance="4.398354337" value="508.8829884"/>
+      <point distance="4.443235504" value="1985.188367"/>
+    </function>
+    <vertex distance="0.000000000" upperboundary="1985.188367" lowerboundary="0.8456287531E-01" label="" coord="0.000000000       0.000000000       0.000000000"/>
+    <vertex distance="4.443235504" upperboundary="1985.188367" lowerboundary="0.8456287531E-01" label="" coord="0.2500000000      0.2500000000      0.2500000000"/>
+  </grid>
+</plot1d>
