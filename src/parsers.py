@@ -1,27 +1,8 @@
 import xml.etree.ElementTree as ET
 import numpy as np
-from typing import Tuple, Optional, Union, List
+from typing import Tuple, Optional, List
 
 import ase
-
-
-# TODO(Alex0 Move to excitingtools
-def extract_charge_density(file_name: str) -> Tuple[np.ndarray, np.ndarray]:
-    """ Extract charge density from RHO1D.xml file.
-
-    :param file_name: File name
-    :return: distance and charge_density
-    """
-    tree = ET.parse(file_name)
-    root = tree.getroot()
-
-    distance = []
-    charge_density = []
-    for child in root[1][2]:
-        distance.append(child.attrib['distance'])
-        charge_density.append(eval(child.attrib['value']))
-
-    return np.asarray(distance), np.asarray(charge_density)
 
 
 def get_standardised_band_path(lattice_vectors) -> Tuple[np.ndarray, dict]:
@@ -86,57 +67,18 @@ def exciting_band_path_xml(symbolic_path, high_symmetry_points, steps:Optional[i
     return string
 
 
-# TODO(Alex0 Move to excitingtools
-def parse_bandstructure_xml(file_name: str) -> Tuple[np.ndarray, np.ndarray]:
-    """ Parse bandstructure.xml
+def find_discontinuities(path: list) -> List[bool]:
+    """ Find and return high-symmetry points that end in a discontinuous band path
 
-    TODO(Alex) Write a test
-              Could extend to parse the vertices, if desired
+    For example:
+       WLK,UX
+    would return the mask [False, False, True, False, False, False],
+    indicating that K is the end of a continuous path.
 
-    :param file_name: bandstructure.xml prepended by path.
-    :return: Tuple of discrete set of points sampling the k-path, and band energies
-    of .shape = (n_kpts, n_bands).
+    :return: List of
     """
-    tree = ET.parse(file_name)
-    root = tree.getroot()
-
-    # Split bands and vertices
-    elements = list(root)
-    # title = elements[0].text
-    bs_xml = {'band': [], 'vertex': []}
-    for item in elements[1:]:
-        bs_xml[item.tag].append(item)
-
-    n_bands = len(bs_xml['band'])
-    first_band = bs_xml['band'][0]
-    n_kpts = len(list(first_band))
-
-    # Same set of flattened k-points, per band - so parse once
-    k_vector = np.empty(shape=n_kpts)
-    for ik, point in enumerate(list(first_band)):
-        k_vector[ik] = point.get('distance')
-
-    # Useful to note - then remove
-    # print(point.tag, point.items(), point.keys(), point.get('distance'))
-
-    # Read E(k), per band
-    band_energies = np.empty(shape=(n_kpts, n_bands))
-    for ib, band in enumerate(bs_xml['band']):
-        points = list(band)
-        for ik, point in enumerate(points):
-            band_energies[ik, ib] = point.get('eval')
-
-    return k_vector, band_energies
-
-
-class BandStructure:
-    """ Wrap free functions for processing exciting band structures.
-    """
-    flat_k_path: Union[list, np.ndarray]
-    band_energies:  np.ndarray
-
-    def __init__(self, file_name: Optional[str]):
-        self.file_name = file_name
-
-    def parse(self):
-        self.flat_k_path, band_energies = parse_bandstructure_xml(self.file_name)
+    mask = [False] * len(path)
+    indices = [i-1 for i, value in enumerate(path) if value == ","]
+    for i in indices:
+        mask[i] = True
+    return mask
