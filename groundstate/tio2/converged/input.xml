@@ -26,7 +26,7 @@
    <groundstate
       do="fromscratch"
       rgkmax="9.0"
-      ngridk="8 8 8"
+      ngridk="6 6 10"
       xctype="GGA_PBE_SOL"
       epsengy="1.e-6"
       gmaxvr="27.0"
