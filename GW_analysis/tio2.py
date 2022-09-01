@@ -60,24 +60,26 @@ if __name__ == "__main__":
 
     q_points = [[2, 2, 3], [4, 4, 6], [6, 6, 10]]
     total_q_points = [np.prod(q_point) for q_point in q_points]
-    # Add 10 %
-    n_empties = [10, 25, 50]
+    n_empties = [10, 25, 50]   # 100
 
     # Print data
     for n_empty in n_empties:
-        gaps = band_gaps_vs_q(os.path.join(root, str(n_empty) + subdirectory), q_points)
+        path = os.path.join(root, str(n_empty) + subdirectory)
+        gaps = band_gaps_vs_q(path, q_points)
         print_data(n_empty, q_points, gaps)
 
     # Plot data
+    print("As the q-grid becomes more dense, TiO2 switches from direct gap to indirect gap")
+
     fig, ax = initialise_bandgap_plot('Convergence in Fundamental Gap of TiO2', (3.25, 3.5))
     for n_empty in n_empties:
         gaps = band_gaps_vs_q(os.path.join(root, str(n_empty) + subdirectory), q_points)
         ax.plot(total_q_points, gaps['fundamental'] * ha_to_ev, 'o', markersize=10, label=str(n_empty))
 
-    # ax.legend(title='Number of Emtpy States (%)')
-    # plt.show()
+    ax.legend(title='Number of Emtpy States (%)')
+    plt.show()
 
-    # fig, ax = initialise_bandgap_plot('Convergence in Gamma-Gamma Gap of TiO2', (3.25, 3.50))
+    fig, ax = initialise_bandgap_plot('Convergence in Gamma-Gamma Gap of TiO2', (3.25, 3.50))
     for n_empty in n_empties:
         gaps = band_gaps_vs_q(os.path.join(root, str(n_empty) + subdirectory), q_points)
         ax.plot(total_q_points, gaps['gamma_gamma'] * ha_to_ev, 'o', markersize=10, label=str(n_empty))
