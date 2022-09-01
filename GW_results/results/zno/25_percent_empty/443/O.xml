@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spdb xsi:noNamespaceSchemaLocation="../../../xml/species.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <sp chemicalSymbol="O" name="oxygen" z="-8.0" mass="29165.12203">
+    <muffinTin rmin="1e-06" radius="1.6" rinf="17.0873" radialmeshPoints="500.0"/>
+      <atomicState n="1" l="0" kappa="1" occ="2.0" core="true"/>
+      <atomicState n="2" l="0" kappa="1" occ="2.0" core="false"/>
+      <atomicState n="2" l="1" kappa="1" occ="2.0" core="false"/>
+      <atomicState n="2" l="1" kappa="2" occ="2.0" core="false"/>
+    <basis>
+       <default type="apw" trialEnergy="0.15" searchE="false"/> 
+
+      <custom l="0" type="apw" trialEnergy="-0.012" searchE="false"/> 
+
+      <lo l="0">
+       <wf matchingOrder="0" trialEnergy="-0.012" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="-0.012" searchE="false"/>
+      </lo>
+      <lo l="0">
+       <wf matchingOrder="1" trialEnergy="-0.012" searchE="false"/>
+       <wf matchingOrder="2" trialEnergy="-0.012" searchE="false"/>
+      </lo>
+      <lo l="0">
+       <wf matchingOrder="0" trialEnergy="6.70008478622698" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="6.70008478622698" searchE="false"/>
+      </lo>
+
+      <custom l="1" type="apw" trialEnergy="0.43" searchE="false"/> 
+
+      <lo l="1">
+       <wf matchingOrder="0" trialEnergy="0.43" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="0.43" searchE="false"/>
+      </lo>
+      <lo l="1">
+       <wf matchingOrder="1" trialEnergy="0.43" searchE="false"/>
+       <wf matchingOrder="2" trialEnergy="0.43" searchE="false"/>
+      </lo>
+      <lo l="1">
+       <wf matchingOrder="0" trialEnergy="5.93294179233199" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="5.93294179233199" searchE="false"/>
+      </lo>
+
+      <custom l="2" type="apw" trialEnergy="3.77" searchE="false"/> 
+
+      <lo l="2">
+       <wf matchingOrder="0" trialEnergy="3.77" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="3.77" searchE="false"/>
+      </lo>
+      <lo l="2">
+       <wf matchingOrder="1" trialEnergy="3.77" searchE="false"/>
+       <wf matchingOrder="2" trialEnergy="3.77" searchE="false"/>
+      </lo>
+      <lo l="2">
+       <wf matchingOrder="0" trialEnergy="12.1232343204386" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="12.1232343204386" searchE="false"/>
+      </lo>
+      <lo l="2">
+       <wf matchingOrder="0" trialEnergy="25.2123095601782" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="25.2123095601782" searchE="false"/>
+      </lo>
+
+      <custom l="3" type="apw" trialEnergy="6.9" searchE="false"/> 
+
+      <lo l="3">
+       <wf matchingOrder="0" trialEnergy="6.9" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="6.9" searchE="false"/>
+      </lo>
+      <lo l="3">
+       <wf matchingOrder="1" trialEnergy="6.9" searchE="false"/>
+       <wf matchingOrder="2" trialEnergy="6.9" searchE="false"/>
+      </lo>
+      <lo l="3">
+       <wf matchingOrder="0" trialEnergy="18.0055879586942" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="18.0055879586942" searchE="false"/>
+      </lo>
+      <lo l="3">
+       <wf matchingOrder="0" trialEnergy="33.5393835610505" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="33.5393835610505" searchE="false"/>
+      </lo>
+      <lo l="3">
+       <wf matchingOrder="0" trialEnergy="53.5800567446731" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="53.5800567446731" searchE="false"/>
+      </lo>
+
+      <custom l="4" type="apw" trialEnergy="10.4" searchE="false"/> 
+
+      <lo l="4">
+       <wf matchingOrder="0" trialEnergy="10.4" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="10.4" searchE="false"/>
+      </lo>
+      <lo l="4">
+       <wf matchingOrder="1" trialEnergy="10.4" searchE="false"/>
+       <wf matchingOrder="2" trialEnergy="10.4" searchE="false"/>
+      </lo>
+      <lo l="4">
+       <wf matchingOrder="0" trialEnergy="24.1662228681017" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="24.1662228681017" searchE="false"/>
+      </lo>
+      <lo l="4">
+       <wf matchingOrder="0" trialEnergy="42.1016119392652" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="42.1016119392652" searchE="false"/>
+      </lo>
+
+      <custom l="5" type="apw" trialEnergy="14.4" searchE="false"/> 
+
+      <lo l="5">
+       <wf matchingOrder="0" trialEnergy="14.4" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="14.4" searchE="false"/>
+      </lo>
+      <lo l="5">
+       <wf matchingOrder="1" trialEnergy="14.4" searchE="false"/>
+       <wf matchingOrder="2" trialEnergy="14.4" searchE="false"/>
+      </lo>
+      <lo l="5">
+       <wf matchingOrder="0" trialEnergy="30.7624092863339" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="30.7624092863339" searchE="false"/>
+      </lo>
+      <lo l="5">
+       <wf matchingOrder="0" trialEnergy="51.083632221805" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="51.083632221805" searchE="false"/>
+      </lo>
+
+      <custom l="6" type="apw" trialEnergy="18.9" searchE="false"/> 
+
+      <lo l="6">
+       <wf matchingOrder="0" trialEnergy="18.9" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="18.9" searchE="false"/>
+      </lo>
+      <lo l="6">
+       <wf matchingOrder="1" trialEnergy="18.9" searchE="false"/>
+       <wf matchingOrder="2" trialEnergy="18.9" searchE="false"/>
+      </lo>
+      <lo l="6">
+       <wf matchingOrder="0" trialEnergy="37.8483544780506" searchE="false"/>
+       <wf matchingOrder="1" trialEnergy="37.8483544780506" searchE="false"/>
+      </lo>
+
+    </basis>
+  </sp>
+</spdb>

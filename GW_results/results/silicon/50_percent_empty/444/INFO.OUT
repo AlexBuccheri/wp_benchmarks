@@ -1,0 +1,552 @@
+================================================================================
+| EXCITING NITROGEN-14 started                                                 =
+|                                                                              =
+| MPI version using      8 processor(s)                                        =
+|                                                                              =
+| Date (DD-MM-YYYY) : 02-07-2022                                               =
+| Time (hh:mm:ss)   : 12:05:37                                                 =
+|                                                                              =
+| All units are atomic (Hartree, Bohr, etc.)                                   =
+================================================================================
+ 
+********************************************************************************
+* Ground-state run starting from atomic densities                              *
+********************************************************************************
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting initialization                                                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Lattice vectors (cartesian) :
+      0.0000000000      5.1306064284      5.1306064284
+      5.1306064284      0.0000000000      5.1306064284
+      5.1306064284      5.1306064284      0.0000000000
+ 
+ Reciprocal lattice vectors (cartesian) :
+     -0.6123238446      0.6123238446      0.6123238446
+      0.6123238446     -0.6123238446      0.6123238446
+      0.6123238446      0.6123238446     -0.6123238446
+ 
+ Unit cell volume                           :     270.1071612054
+ Brillouin zone volume                      :       0.9183400112
+ 
+ Species :    1 (Si)
+     parameters loaded from                 :    Si.xml
+     name                                   :    silicon
+     nuclear charge                         :     -14.00000000
+     electronic charge                      :      14.00000000
+     atomic mass                            :   51196.73454000
+     muffin-tin radius                      :       2.19900000
+     # of radial points in muffin-tin       :     300
+ 
+     atomic positions (lattice) :
+       1 :   0.00000000  0.00000000  0.00000000
+       2 :   0.25000000  0.25000000  0.25000000
+ 
+ Total number of atoms per unit cell        :       2
+ 
+ Spin treatment                             :    spin-unpolarised
+ 
+ Number of Bravais lattice symmetries       :      48
+ Number of crystal symmetries               :      48
+ 
+ k-point grid                               :       8    8    8
+ Total number of k-points                   :      29
+ k-point set is reduced with crystal symmetries
+ 
+ R^MT_min * |G+k|_max (rgkmax)              :       9.00000000
+ Species with R^MT_min                      :       1 (Si)
+ Maximum |G+k| for APW functions            :       4.09276944
+ Maximum |G| for potential and density      :      24.00000000
+ 
+ G-vector grid sizes                        :      60    60    60
+ Total number of G-vectors                  :   62871
+ 
+ Maximum angular momentum used for
+     APW functions                          :       8
+     computing H and O matrix elements      :       8
+     potential and density                  :       8
+     inner part of muffin-tin               :       2
+ 
+ Total nuclear charge                       :     -28.00000000
+ Total electronic charge                    :      28.00000000
+ Total core charge                          :       4.00000000
+ Total valence charge                       :      24.00000000
+ 
+ Number of empty states                     :       5
+ Total number of valence states             :      18
+ 
+ Maximum Hamiltonian size                   :    1117
+ Maximum number of plane-waves              :     331
+ Total number of local-orbitals             :     786
+ 
+ Exchange-correlation type                  :      22
+     PBEsol, Phys. Rev. Lett. 100, 136406 (2008)
+     Generalised gradient approximation (GGA)
+ 
+ Smearing scheme                            :    Gaussian
+ Smearing width                             :       0.00100000
+ 
+ Using multisecant Broyden potential mixing
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Ending initialization                                                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+********************************************************************************
+* Groundstate module started                                                   *
+********************************************************************************
+ Output level for this task is set to normal
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Self-consistent loop started                                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Density and potential initialised from atomic data
+ 
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    1                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :      -580.12200129
+ _______________________________________________________________
+ Fermi energy                               :         0.18650404
+ Kinetic energy                             :       579.63430314
+ Coulomb energy                             :     -1119.05692493
+ Exchange energy                            :       -39.43942082
+ Correlation energy                         :        -1.25995869
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :         4.00000000
+     core leakage                           :         0.00000000
+     valence                                :        24.00000000
+     interstitial                           :         3.30420737
+     charge in muffin-tin spheres :
+                  atom     1    Si          :        12.34789632
+                  atom     2    Si          :        12.34789632
+     total charge in muffin-tins            :        24.69579263
+     total charge                           :        28.00000000
+ 
+ Estimated fundamental gap                  :         0.03262589
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at   18      0.3750  0.3750  0.0000
+ 
+ Wall time (seconds)                        :         4.13
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    2                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :      -579.68489909
+ _______________________________________________________________
+ Fermi energy                               :         0.19128576
+ Kinetic energy                             :       579.90604136
+ Coulomb energy                             :     -1118.90678252
+ Exchange energy                            :       -39.42369677
+ Correlation energy                         :        -1.26046115
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :         4.00000000
+     core leakage                           :         0.00000000
+     valence                                :        24.00000000
+     interstitial                           :         3.33651097
+     charge in muffin-tin spheres :
+                  atom     1    Si          :        12.33174451
+                  atom     2    Si          :        12.33174451
+     total charge in muffin-tins            :        24.66348903
+     total charge                           :        28.00000000
+ 
+ Estimated fundamental gap                  :         0.02813461
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at   18      0.3750  0.3750  0.0000
+ 
+ Wall time (seconds)                        :         6.82
+ 
+ RMS change in effective potential (target) :  0.589488      ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.437102      ( 0.100000E-05)
+ Charge distance                   (target) :  0.283979E-02  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    3                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :      -579.39117032
+ _______________________________________________________________
+ Fermi energy                               :         0.19480026
+ Kinetic energy                             :       580.09245010
+ Coulomb energy                             :     -1118.80970478
+ Exchange energy                            :       -39.41307028
+ Correlation energy                         :        -1.26084537
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :         4.00000000
+     core leakage                           :         0.00000000
+     valence                                :        24.00000000
+     interstitial                           :         3.36045319
+     charge in muffin-tin spheres :
+                  atom     1    Si          :        12.31977340
+                  atom     2    Si          :        12.31977340
+     total charge in muffin-tins            :        24.63954681
+     total charge                           :        28.00000000
+ 
+ Estimated fundamental gap                  :         0.02479850
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at   18      0.3750  0.3750  0.0000
+ 
+ Wall time (seconds)                        :         9.57
+ 
+ RMS change in effective potential (target) :  0.433768      ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.293729      ( 0.100000E-05)
+ Charge distance                   (target) :  0.210703E-02  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    4                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :      -579.40117707
+ _______________________________________________________________
+ Fermi energy                               :         0.19907020
+ Kinetic energy                             :       580.13305927
+ Coulomb energy                             :     -1118.86078357
+ Exchange energy                            :       -39.41201934
+ Correlation energy                         :        -1.26143344
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :         4.00000000
+     core leakage                           :         0.00000000
+     valence                                :        24.00000000
+     interstitial                           :         3.38764272
+     charge in muffin-tin spheres :
+                  atom     1    Si          :        12.30617864
+                  atom     2    Si          :        12.30617864
+     total charge in muffin-tins            :        24.61235728
+     total charge                           :        28.00000000
+ 
+ Estimated fundamental gap                  :         0.02050153
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at   18      0.3750  0.3750  0.0000
+ 
+ Wall time (seconds)                        :        12.33
+ 
+ RMS change in effective potential (target) :  0.447765E-02  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.100067E-01  ( 0.100000E-05)
+ Charge distance                   (target) :  0.277777E-02  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    5                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :      -578.79319077
+ _______________________________________________________________
+ Fermi energy                               :         0.20213410
+ Kinetic energy                             :       580.43086884
+ Coulomb energy                             :     -1118.57294897
+ Exchange energy                            :       -39.38945084
+ Correlation energy                         :        -1.26165981
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :         4.00000000
+     core leakage                           :        -0.00000000
+     valence                                :        24.00000000
+     interstitial                           :         3.41089512
+     charge in muffin-tin spheres :
+                  atom     1    Si          :        12.29455244
+                  atom     2    Si          :        12.29455244
+     total charge in muffin-tins            :        24.58910488
+     total charge                           :        28.00000000
+ 
+ Estimated fundamental gap                  :         0.01778551
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at   18      0.3750  0.3750  0.0000
+ 
+ Wall time (seconds)                        :        15.08
+ 
+ RMS change in effective potential (target) :  0.304542E-02  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.607986      ( 0.100000E-05)
+ Charge distance                   (target) :  0.210321E-02  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    6                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :      -579.04253588
+ _______________________________________________________________
+ Fermi energy                               :         0.20115442
+ Kinetic energy                             :       580.32483222
+ Coulomb energy                             :     -1118.70651014
+ Exchange energy                            :       -39.39925863
+ Correlation energy                         :        -1.26159933
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :         4.00000000
+     core leakage                           :         0.00000000
+     valence                                :        24.00000000
+     interstitial                           :         3.40297106
+     charge in muffin-tin spheres :
+                  atom     1    Si          :        12.29851447
+                  atom     2    Si          :        12.29851447
+     total charge in muffin-tins            :        24.59702894
+     total charge                           :        28.00000000
+ 
+ Estimated fundamental gap                  :         0.01867750
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at   18      0.3750  0.3750  0.0000
+ 
+ Wall time (seconds)                        :        18.01
+ 
+ RMS change in effective potential (target) :  0.164183E-03  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.249345      ( 0.100000E-05)
+ Charge distance                   (target) :  0.760917E-03  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    7                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :      -579.03890557
+ _______________________________________________________________
+ Fermi energy                               :         0.20108949
+ Kinetic energy                             :       580.32113158
+ Coulomb energy                             :     -1118.69950464
+ Exchange energy                            :       -39.39894310
+ Correlation energy                         :        -1.26158940
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :         4.00000000
+     core leakage                           :        -0.00000000
+     valence                                :        24.00000000
+     interstitial                           :         3.40253938
+     charge in muffin-tin spheres :
+                  atom     1    Si          :        12.29873031
+                  atom     2    Si          :        12.29873031
+     total charge in muffin-tins            :        24.59746062
+     total charge                           :        28.00000000
+ 
+ Estimated fundamental gap                  :         0.01873885
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at   18      0.3750  0.3750  0.0000
+ 
+ Wall time (seconds)                        :        20.79
+ 
+ RMS change in effective potential (target) :  0.730845E-05  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.363032E-02  ( 0.100000E-05)
+ Charge distance                   (target) :  0.551559E-04  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    8                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :      -579.03843279
+ _______________________________________________________________
+ Fermi energy                               :         0.20109288
+ Kinetic energy                             :       580.32151463
+ Coulomb energy                             :     -1118.69942778
+ Exchange energy                            :       -39.39892976
+ Correlation energy                         :        -1.26158987
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :         4.00000000
+     core leakage                           :        -0.00000000
+     valence                                :        24.00000000
+     interstitial                           :         3.40257423
+     charge in muffin-tin spheres :
+                  atom     1    Si          :        12.29871288
+                  atom     2    Si          :        12.29871288
+     total charge in muffin-tins            :        24.59742577
+     total charge                           :        28.00000000
+ 
+ Estimated fundamental gap                  :         0.01873465
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at   18      0.3750  0.3750  0.0000
+ 
+ Wall time (seconds)                        :        23.56
+ 
+ RMS change in effective potential (target) :  0.715645E-06  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.472780E-03  ( 0.100000E-05)
+ Charge distance                   (target) :  0.281511E-05  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    9                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :      -579.03849326
+ _______________________________________________________________
+ Fermi energy                               :         0.20109283
+ Kinetic energy                             :       580.32149661
+ Coulomb energy                             :     -1118.69946760
+ Exchange energy                            :       -39.39893239
+ Correlation energy                         :        -1.26158988
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :         4.00000000
+     core leakage                           :         0.00000000
+     valence                                :        24.00000000
+     interstitial                           :         3.40257341
+     charge in muffin-tin spheres :
+                  atom     1    Si          :        12.29871330
+                  atom     2    Si          :        12.29871330
+     total charge in muffin-tins            :        24.59742659
+     total charge                           :        28.00000000
+ 
+ Estimated fundamental gap                  :         0.01873470
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at   18      0.3750  0.3750  0.0000
+ 
+ Wall time (seconds)                        :        26.35
+ 
+ RMS change in effective potential (target) :  0.480511E-07  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.604765E-04  ( 0.100000E-05)
+ Charge distance                   (target) :  0.119678E-06  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :   10                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :      -579.03849043
+ _______________________________________________________________
+ Fermi energy                               :         0.20109282
+ Kinetic energy                             :       580.32149667
+ Coulomb energy                             :     -1118.69946497
+ Exchange energy                            :       -39.39893224
+ Correlation energy                         :        -1.26158988
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :         4.00000000
+     core leakage                           :        -0.00000000
+     valence                                :        24.00000000
+     interstitial                           :         3.40257334
+     charge in muffin-tin spheres :
+                  atom     1    Si          :        12.29871333
+                  atom     2    Si          :        12.29871333
+     total charge in muffin-tins            :        24.59742666
+     total charge                           :        28.00000000
+ 
+ Estimated fundamental gap                  :         0.01873471
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at   18      0.3750  0.3750  0.0000
+ 
+ Wall time (seconds)                        :        29.14
+ 
+ RMS change in effective potential (target) :  0.744093E-09  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.283234E-05  ( 0.100000E-05)
+ Charge distance                   (target) :  0.130602E-07  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :   11                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :      -579.03849048
+ _______________________________________________________________
+ Fermi energy                               :         0.20109282
+ Kinetic energy                             :       580.32149667
+ Coulomb energy                             :     -1118.69946501
+ Exchange energy                            :       -39.39893225
+ Correlation energy                         :        -1.26158988
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :         4.00000000
+     core leakage                           :        -0.00000000
+     valence                                :        24.00000000
+     interstitial                           :         3.40257334
+     charge in muffin-tin spheres :
+                  atom     1    Si          :        12.29871333
+                  atom     2    Si          :        12.29871333
+     total charge in muffin-tins            :        24.59742666
+     total charge                           :        28.00000000
+ 
+ Estimated fundamental gap                  :         0.01873471
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at   18      0.3750  0.3750  0.0000
+ 
+ Wall time (seconds)                        :        31.92
+ 
+ RMS change in effective potential (target) :  0.477751E-09  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.466642E-07  ( 0.100000E-05)
+ Charge distance                   (target) :  0.362126E-09  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :   12                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :      -579.03849048
+ _______________________________________________________________
+ Fermi energy                               :         0.20109282
+ Kinetic energy                             :       580.32149666
+ Coulomb energy                             :     -1118.69946501
+ Exchange energy                            :       -39.39893225
+ Correlation energy                         :        -1.26158988
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :         4.00000000
+     core leakage                           :        -0.00000000
+     valence                                :        24.00000000
+     interstitial                           :         3.40257334
+     charge in muffin-tin spheres :
+                  atom     1    Si          :        12.29871333
+                  atom     2    Si          :        12.29871333
+     total charge in muffin-tins            :        24.59742666
+     total charge                           :        28.00000000
+ 
+ Estimated fundamental gap                  :         0.01873471
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at   18      0.3750  0.3750  0.0000
+ 
+ Wall time (seconds)                        :        34.70
+ 
+ RMS change in effective potential (target) :  0.217080E-09  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.134730E-08  ( 0.100000E-05)
+ Charge distance                   (target) :  0.843078E-10  ( 0.100000E-04)
+                                                                                
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| Convergency criteria checked for the last 2 iterations                       +
+| Convergence targets achieved. Performing final SCF iteration                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :      -579.03849047
+ _______________________________________________________________
+ Fermi energy                               :         0.20109282
+ Kinetic energy                             :       580.32149667
+ Coulomb energy                             :     -1118.69946501
+ Exchange energy                            :       -39.39893225
+ Correlation energy                         :        -1.26158988
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :         4.00000000
+     core leakage                           :        -0.00000000
+     valence                                :        24.00000000
+     interstitial                           :         3.40257334
+     charge in muffin-tin spheres :
+                  atom     1    Si          :        12.29871333
+                  atom     2    Si          :        12.29871333
+     total charge in muffin-tins            :        24.59742666
+     total charge                           :        28.00000000
+ 
+ Estimated fundamental gap                  :         0.01873471
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at   18      0.3750  0.3750  0.0000
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Self-consistent loop stopped                                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ STATE.OUT is written
+ 
+********************************************************************************
+* Groundstate module stopped                                                   *
+********************************************************************************
+ 
+ Total time spent (seconds)                 :        33.71
+================================================================================
+| EXCITING NITROGEN-14 stopped                                                 =
+================================================================================

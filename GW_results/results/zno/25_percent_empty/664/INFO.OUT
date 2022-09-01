@@ -1,0 +1,735 @@
+================================================================================
+| EXCITING NITROGEN-14 started                                                 =
+|                                                                              =
+| MPI version using     20 processor(s)                                        =
+|                                                                              =
+| Date (DD-MM-YYYY) : 03-07-2022                                               =
+| Time (hh:mm:ss)   : 14:46:03                                                 =
+|                                                                              =
+| All units are atomic (Hartree, Bohr, etc.)                                   =
+================================================================================
+ 
+********************************************************************************
+* Ground-state run starting from atomic densities                              *
+********************************************************************************
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting initialization                                                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ Lattice vectors (cartesian) :
+      6.1416094643      0.0000000000      0.0000000000
+     -3.0708047321      5.3187898118      0.0000000000
+      0.0000000000      0.0000000000      9.8398032247
+ 
+ Reciprocal lattice vectors (cartesian) :
+      1.0230519123      0.5906592975      0.0000000000
+      0.0000000000      1.1813185949      0.0000000000
+      0.0000000000      0.0000000000      0.6385478615
+ 
+ Unit cell volume                           :     321.4263218433
+ Brillouin zone volume                      :       0.7717171762
+ 
+ Species :    1 (Zn)
+     parameters loaded from                 :    Zn.xml
+     name                                   :    zinc
+     nuclear charge                         :     -30.00000000
+     electronic charge                      :      30.00000000
+     atomic mass                            :  119198.67800000
+     muffin-tin radius                      :       1.80000000
+     # of radial points in muffin-tin       :    1000
+ 
+     atomic positions (lattice) :
+       1 :   0.00000000  0.00000000  0.00000000
+       2 :   0.33333334  0.66666666  0.50000000
+ 
+ Species :    2 (O)
+     parameters loaded from                 :    O.xml
+     name                                   :    oxygen
+     nuclear charge                         :      -8.00000000
+     electronic charge                      :       8.00000000
+     atomic mass                            :   29165.12203000
+     muffin-tin radius                      :       1.50000000
+     # of radial points in muffin-tin       :     500
+ 
+     atomic positions (lattice) :
+       1 :   0.00000000  0.00000000  0.38190000
+       2 :   0.33333334  0.66666666  0.88190000
+ 
+ Total number of atoms per unit cell        :       4
+ 
+ Spin treatment                             :    spin-unpolarised
+ 
+ Number of Bravais lattice symmetries       :      24
+ Number of crystal symmetries               :      12
+ 
+ k-point grid                               :       8    8    5
+ Total number of k-points                   :      50
+ k-point set is reduced with crystal symmetries
+ 
+ R^MT_min * |G+k|_max (rgkmax)              :       9.00000000
+ Species with R^MT_min                      :       2 (O)
+ Maximum |G+k| for APW functions            :       6.00000000
+ Maximum |G| for potential and density      :      24.00000000
+ 
+ G-vector grid sizes                        :      48    48    80
+ Total number of G-vectors                  :   75105
+ 
+ Maximum angular momentum used for
+     APW functions                          :       8
+     computing H and O matrix elements      :       8
+     potential and density                  :       8
+     inner part of muffin-tin               :       2
+ 
+ Total nuclear charge                       :     -76.00000000
+ Total electronic charge                    :      76.00000000
+ Total core charge                          :      24.00000000
+ Total valence charge                       :      52.00000000
+ 
+ Number of empty states                     :      10
+ Total number of valence states             :      37
+ 
+ Maximum Hamiltonian size                   :    2326
+ Maximum number of plane-waves              :    1188
+ Total number of local-orbitals             :    1138
+ 
+ Exchange-correlation type                  :      22
+     PBEsol, Phys. Rev. Lett. 100, 136406 (2008)
+     Generalised gradient approximation (GGA)
+ 
+ Smearing scheme                            :    Gaussian
+ Smearing width                             :       0.00100000
+ 
+ Using multisecant Broyden potential mixing
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Ending initialization                                                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+********************************************************************************
+* Groundstate module started                                                   *
+********************************************************************************
+ Output level for this task is set to normal
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Self-consistent loop started                                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Density and potential initialised from atomic data
+ 
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    1                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3739.59431300
+ _______________________________________________________________
+ Fermi energy                               :         0.14252454
+ Kinetic energy                             :      3805.38662948
+ Coulomb energy                             :     -7387.42958356
+ Exchange energy                            :      -153.60055030
+ Correlation energy                         :        -3.95080862
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000077
+     valence                                :        52.00000000
+     interstitial                           :         6.25769525
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.54756778
+                  atom     2    Zn          :        27.54756778
+                  atom     3     O          :         7.32358460
+                  atom     4     O          :         7.32358460
+     total charge in muffin-tins            :        69.74230475
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.05692667
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :         8.11
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    2                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3741.94102908
+ _______________________________________________________________
+ Fermi energy                               :         0.16668852
+ Kinetic energy                             :      3803.20950834
+ Coulomb energy                             :     -7387.83234447
+ Exchange energy                            :      -153.35990331
+ Correlation energy                         :        -3.95828964
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000079
+     valence                                :        52.00000000
+     interstitial                           :         6.78001051
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.67075904
+                  atom     2    Zn          :        27.67075904
+                  atom     3     O          :         6.93923570
+                  atom     4     O          :         6.93923570
+     total charge in muffin-tins            :        69.21998949
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.03983672
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        14.44
+ 
+ RMS change in effective potential (target) :  0.165527      ( 0.100000E-05)
+ Absolute change in total energy   (target) :   2.34672      ( 0.100000E-05)
+ Charge distance                   (target) :  0.202433E-01  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    3                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3740.77676159
+ _______________________________________________________________
+ Fermi energy                               :         0.17692623
+ Kinetic energy                             :      3803.36969461
+ Coulomb energy                             :     -7386.95879920
+ Exchange energy                            :      -153.22794575
+ Correlation energy                         :        -3.95971125
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000080
+     valence                                :        52.00000000
+     interstitial                           :         6.93878494
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.69258659
+                  atom     2    Zn          :        27.69258659
+                  atom     3     O          :         6.83802094
+                  atom     4     O          :         6.83802094
+     total charge in muffin-tins            :        69.06121506
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.03028008
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        20.80
+ 
+ RMS change in effective potential (target) :  0.124981      ( 0.100000E-05)
+ Absolute change in total energy   (target) :   1.16427      ( 0.100000E-05)
+ Charge distance                   (target) :  0.557655E-02  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    4                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3750.76025879
+ _______________________________________________________________
+ Fermi energy                               :         0.16698630
+ Kinetic energy                             :      3799.62404182
+ Coulomb energy                             :     -7392.70851056
+ Exchange energy                            :      -153.71364707
+ Correlation energy                         :        -3.96214299
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000077
+     valence                                :        52.00000000
+     interstitial                           :         6.68658436
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.73773013
+                  atom     2    Zn          :        27.73773013
+                  atom     3     O          :         6.91897769
+                  atom     4     O          :         6.91897769
+     total charge in muffin-tins            :        69.31341564
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.04730975
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        27.19
+ 
+ RMS change in effective potential (target) :  0.650764E-01  ( 0.100000E-05)
+ Absolute change in total energy   (target) :   9.98350      ( 0.100000E-05)
+ Charge distance                   (target) :  0.996368E-02  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    5                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3735.94047621
+ _______________________________________________________________
+ Fermi energy                               :         0.18627474
+ Kinetic energy                             :      3805.25328819
+ Coulomb energy                             :     -7384.21649330
+ Exchange energy                            :      -153.01936437
+ Correlation energy                         :        -3.95790672
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000078
+     valence                                :        52.00000000
+     interstitial                           :         7.01920243
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.67392476
+                  atom     2    Zn          :        27.67392476
+                  atom     3     O          :         6.81647402
+                  atom     4     O          :         6.81647402
+     total charge in muffin-tins            :        68.98079757
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.02265058
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        33.56
+ 
+ RMS change in effective potential (target) :  0.213649E-01  ( 0.100000E-05)
+ Absolute change in total energy   (target) :   14.8198      ( 0.100000E-05)
+ Charge distance                   (target) :  0.139196E-01  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    6                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3739.49403653
+ _______________________________________________________________
+ Fermi energy                               :         0.18416755
+ Kinetic energy                             :      3803.85086336
+ Coulomb energy                             :     -7386.22640315
+ Exchange energy                            :      -153.15896933
+ Correlation energy                         :        -3.95952741
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000078
+     valence                                :        52.00000000
+     interstitial                           :         6.98672054
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.69779939
+                  atom     2    Zn          :        27.69779939
+                  atom     3     O          :         6.80884034
+                  atom     4     O          :         6.80884034
+     total charge in muffin-tins            :        69.01327946
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.02557015
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        39.97
+ 
+ RMS change in effective potential (target) :  0.174855E-02  ( 0.100000E-05)
+ Absolute change in total energy   (target) :   3.55356      ( 0.100000E-05)
+ Charge distance                   (target) :  0.222029E-02  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    7                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3739.57023203
+ _______________________________________________________________
+ Fermi energy                               :         0.18350573
+ Kinetic energy                             :      3803.83349254
+ Coulomb energy                             :     -7386.27630945
+ Exchange energy                            :      -153.16799656
+ Correlation energy                         :        -3.95941856
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000078
+     valence                                :        52.00000000
+     interstitial                           :         6.97527314
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.69653620
+                  atom     2    Zn          :        27.69653620
+                  atom     3     O          :         6.81582723
+                  atom     4     O          :         6.81582723
+     total charge in muffin-tins            :        69.02472686
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.02628063
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        46.37
+ 
+ RMS change in effective potential (target) :  0.124125E-03  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.761955E-01  ( 0.100000E-05)
+ Charge distance                   (target) :  0.384065E-03  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    8                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3739.54788738
+ _______________________________________________________________
+ Fermi energy                               :         0.18351729
+ Kinetic energy                             :      3803.84308983
+ Coulomb energy                             :     -7386.26451856
+ Exchange energy                            :      -153.16704899
+ Correlation energy                         :        -3.95940965
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000078
+     valence                                :        52.00000000
+     interstitial                           :         6.97562400
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.69637340
+                  atom     2    Zn          :        27.69637340
+                  atom     3     O          :         6.81581460
+                  atom     4     O          :         6.81581460
+     total charge in muffin-tins            :        69.02437600
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.02625192
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        52.75
+ 
+ RMS change in effective potential (target) :  0.233223E-04  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.223446E-01  ( 0.100000E-05)
+ Charge distance                   (target) :  0.158194E-04  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :    9                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3739.55232000
+ _______________________________________________________________
+ Fermi energy                               :         0.18351457
+ Kinetic energy                             :      3803.84072901
+ Coulomb energy                             :     -7386.26642218
+ Exchange energy                            :      -153.16721483
+ Correlation energy                         :        -3.95941201
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000078
+     valence                                :        52.00000000
+     interstitial                           :         6.97557530
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.69641614
+                  atom     2    Zn          :        27.69641614
+                  atom     3     O          :         6.81579621
+                  atom     4     O          :         6.81579621
+     total charge in muffin-tins            :        69.02442470
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.02625739
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        59.12
+ 
+ RMS change in effective potential (target) :  0.316889E-05  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.443262E-02  ( 0.100000E-05)
+ Charge distance                   (target) :  0.309806E-05  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :   10                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3739.55182254
+ _______________________________________________________________
+ Fermi energy                               :         0.18351516
+ Kinetic energy                             :      3803.84100178
+ Coulomb energy                             :     -7386.26621558
+ Exchange energy                            :      -153.16719702
+ Correlation energy                         :        -3.95941172
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000078
+     valence                                :        52.00000000
+     interstitial                           :         6.97557939
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.69641156
+                  atom     2    Zn          :        27.69641156
+                  atom     3     O          :         6.81579874
+                  atom     4     O          :         6.81579874
+     total charge in muffin-tins            :        69.02442061
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.02625684
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        65.66
+ 
+ RMS change in effective potential (target) :  0.252751E-06  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.497463E-03  ( 0.100000E-05)
+ Charge distance                   (target) :  0.404285E-06  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :   11                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3739.55181270
+ _______________________________________________________________
+ Fermi energy                               :         0.18351522
+ Kinetic energy                             :      3803.84100963
+ Coulomb energy                             :     -7386.26621424
+ Exchange energy                            :      -153.16719637
+ Correlation energy                         :        -3.95941172
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000078
+     valence                                :        52.00000000
+     interstitial                           :         6.97558026
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.69641153
+                  atom     2    Zn          :        27.69641153
+                  atom     3     O          :         6.81579834
+                  atom     4     O          :         6.81579834
+     total charge in muffin-tins            :        69.02441974
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.02625679
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        72.11
+ 
+ RMS change in effective potential (target) :  0.901808E-07  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.984118E-05  ( 0.100000E-05)
+ Charge distance                   (target) :  0.669120E-07  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :   12                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3739.55182711
+ _______________________________________________________________
+ Fermi energy                               :         0.18351521
+ Kinetic energy                             :      3803.84100222
+ Coulomb energy                             :     -7386.26622070
+ Exchange energy                            :      -153.16719690
+ Correlation energy                         :        -3.95941173
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000078
+     valence                                :        52.00000000
+     interstitial                           :         6.97558013
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.69641167
+                  atom     2    Zn          :        27.69641167
+                  atom     3     O          :         6.81579827
+                  atom     4     O          :         6.81579827
+     total charge in muffin-tins            :        69.02441987
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.02625680
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        78.50
+ 
+ RMS change in effective potential (target) :  0.492772E-06  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.144109E-04  ( 0.100000E-05)
+ Charge distance                   (target) :  0.156400E-07  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :   13                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3739.55182705
+ _______________________________________________________________
+ Fermi energy                               :         0.18351521
+ Kinetic energy                             :      3803.84100231
+ Coulomb energy                             :     -7386.26622073
+ Exchange energy                            :      -153.16719690
+ Correlation energy                         :        -3.95941173
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000078
+     valence                                :        52.00000000
+     interstitial                           :         6.97558013
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.69641167
+                  atom     2    Zn          :        27.69641167
+                  atom     3     O          :         6.81579827
+                  atom     4     O          :         6.81579827
+     total charge in muffin-tins            :        69.02441987
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.02625680
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        84.86
+ 
+ RMS change in effective potential (target) :  0.149256E-07  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.627210E-07  ( 0.100000E-05)
+ Charge distance                   (target) :  0.177764E-09  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :   14                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3739.55182572
+ _______________________________________________________________
+ Fermi energy                               :         0.18351520
+ Kinetic energy                             :      3803.84100286
+ Coulomb energy                             :     -7386.26621998
+ Exchange energy                            :      -153.16719687
+ Correlation energy                         :        -3.95941173
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000078
+     valence                                :        52.00000000
+     interstitial                           :         6.97558008
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.69641165
+                  atom     2    Zn          :        27.69641165
+                  atom     3     O          :         6.81579831
+                  atom     4     O          :         6.81579831
+     total charge in muffin-tins            :        69.02441992
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.02625680
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        91.28
+ 
+ RMS change in effective potential (target) :  0.255709E-07  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.132218E-05  ( 0.100000E-05)
+ Charge distance                   (target) :  0.293114E-08  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :   15                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3739.55182616
+ _______________________________________________________________
+ Fermi energy                               :         0.18351520
+ Kinetic energy                             :      3803.84100260
+ Coulomb energy                             :     -7386.26622015
+ Exchange energy                            :      -153.16719689
+ Correlation energy                         :        -3.95941173
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000078
+     valence                                :        52.00000000
+     interstitial                           :         6.97558009
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.69641165
+                  atom     2    Zn          :        27.69641165
+                  atom     3     O          :         6.81579831
+                  atom     4     O          :         6.81579831
+     total charge in muffin-tins            :        69.02441991
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.02625680
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :        97.72
+ 
+ RMS change in effective potential (target) :  0.490852E-06  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.435754E-06  ( 0.100000E-05)
+ Charge distance                   (target) :  0.642434E-09  ( 0.100000E-04)
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ SCF iteration number :   16                                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3739.55182621
+ _______________________________________________________________
+ Fermi energy                               :         0.18351520
+ Kinetic energy                             :      3803.84100264
+ Coulomb energy                             :     -7386.26622025
+ Exchange energy                            :      -153.16719688
+ Correlation energy                         :        -3.95941173
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000078
+     valence                                :        52.00000000
+     interstitial                           :         6.97558011
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.69641165
+                  atom     2    Zn          :        27.69641165
+                  atom     3     O          :         6.81579829
+                  atom     4     O          :         6.81579829
+     total charge in muffin-tins            :        69.02441989
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.02625680
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+ Wall time (seconds)                        :       104.12
+ 
+ RMS change in effective potential (target) :  0.852573E-08  ( 0.100000E-05)
+ Absolute change in total energy   (target) :  0.535715E-07  ( 0.100000E-05)
+ Charge distance                   (target) :  0.949932E-09  ( 0.100000E-04)
+                                                                                
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| Convergency criteria checked for the last 2 iterations                       +
+| Convergence targets achieved. Performing final SCF iteration                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Total energy                               :     -3739.55182645
+ _______________________________________________________________
+ Fermi energy                               :         0.18351520
+ Kinetic energy                             :      3803.84100265
+ Coulomb energy                             :     -7386.26622046
+ Exchange energy                            :      -153.16719691
+ Correlation energy                         :        -3.95941173
+ 
+ DOS at Fermi energy (states/Ha/cell)       :         0.00000000
+ 
+ Electron charges :
+     core                                   :        24.00000000
+     core leakage                           :         0.00000078
+     valence                                :        52.00000000
+     interstitial                           :         6.97558006
+     charge in muffin-tin spheres :
+                  atom     1    Zn          :        27.69641165
+                  atom     2    Zn          :        27.69641165
+                  atom     3     O          :         6.81579832
+                  atom     4     O          :         6.81579832
+     total charge in muffin-tins            :        69.02441994
+     total charge                           :        76.00000000
+ 
+ Estimated fundamental gap                  :         0.02625680
+        valence-band maximum at    1      0.0000  0.0000  0.0000
+     conduction-band minimum at    1      0.0000  0.0000  0.0000
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Self-consistent loop stopped                                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ STATE.OUT is written
+ 
+********************************************************************************
+* Groundstate module stopped                                                   *
+********************************************************************************
+ 
+ Total time spent (seconds)                 :       108.47
+================================================================================
+| EXCITING NITROGEN-14 stopped                                                 =
+================================================================================

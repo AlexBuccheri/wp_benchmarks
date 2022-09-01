@@ -9,7 +9,7 @@ from excitingtools.dataclasses.data_structs import BandIndices, PointIndex
 from excitingtools.dataclasses.eigenvalues import EigenValues
 from excitingtools.exciting_obj_parsers.gw_eigenvalues import NitrogenEvalQPColumns, gw_eigenvalue_parser
 
-from conversions import ha_to_ev
+from src.conversions import ha_to_ev
 
 
 def get_standardised_band_path(lattice_vectors) -> Tuple[np.ndarray, dict]:
