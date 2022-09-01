@@ -91,4 +91,3 @@ if __name__ == "__main__":
     if save_plots:
         plt.savefig('tio2_bs.jpeg', dpi=300, facecolor='w', edgecolor='w',
                     orientation='portrait', transparent=True, bbox_inches=None, pad_inches=0.1)
-
