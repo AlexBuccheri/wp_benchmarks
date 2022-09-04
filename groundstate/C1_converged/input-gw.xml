@@ -1,0 +1,82 @@
+<input>
+
+   <title>A1-ZrO2-Cubic-Primitive-PBEsol</title>
+
+   <structure speciespath=".">
+      <crystal  scale="1.8897259886">
+         <basevect> 5.17105175  0.00000000  0.00000000 </basevect>
+         <basevect> 0.00000000  5.25225828  0.00000000 </basevect>
+         <basevect> 0.00000000  0.00000000  5.37299290 </basevect>
+      </crystal>
+
+      <species speciesfile="Zr.xml" rmt="2.0">
+         <atom coord=" 0.04291578 -0.01461165 -0.00824265 "></atom>
+         <atom coord=" 0.05282588  0.43719876  0.52528580 "></atom>
+      </species>
+
+      <species speciesfile="Y.xml" rmt="2.0">
+         <atom coord=" 0.49784933  0.47534721  0.02150401 "></atom>
+         <atom coord=" 0.49085551 -0.02365242  0.46296310 "></atom>
+      </species>
+
+      <species speciesfile="O.xml" rmt="1.6">
+         <atom coord=" 0.22514292  0.21434660  0.24629149 "></atom>
+         <atom coord=" 0.29917182  0.21287799  0.73868132 "></atom>
+         <atom coord=" 0.20177835  0.71937505  0.27158600 "></atom>
+         <atom coord=" 0.21023920  0.72302367  0.75661897 "></atom>
+         <atom coord=" 0.70645973  0.36842732  0.36884232 "></atom>
+         <atom coord=" 0.83174242  0.28184259  0.82746449 "></atom>
+         <atom coord=" 0.69101906  0.85582488  0.08816755 "></atom>
+      </species>
+   </structure>
+
+   <groundstate
+      do="skip"
+      rgkmax="8.0"
+      ngridk="4 4 4"
+      xctype="GGA_PBE_SOL"
+      epsengy="1.e-7"
+      deband="0.001"
+      gmaxvr="20.0"
+      outputlevel="high"
+      maxscl="30"
+      >
+   </groundstate>
+
+    
+           <gw
+            taskname="g0w0"
+            nempty="3200"
+            ngridq="1 1 1"
+	    skipgnd="false"
+	    ibgw="60"
+	    nbgw="90"
+            >
+
+            <mixbasis
+              lmaxmb="4"
+              epsmb="0.001"
+              gmb="1.0"
+            ></mixbasis>
+
+            <freqgrid
+              nomeg="32"
+              freqmax="1.0"
+            ></freqgrid>
+
+            <barecoul
+              pwm="2.0"
+              stctol="1e-16"
+              barcevtol="0.1"
+            ></barecoul>
+
+            <selfenergy
+              actype="pade"
+              singularity="mpb"
+            ></selfenergy>
+
+           </gw>
+        
+
+</input>
+
