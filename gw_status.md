@@ -9,8 +9,6 @@ At which point Si is done.
 ## ZnO
 * 25% for [8,8,5]. To submit
 * For 50%, just use the resources used for 100%
-  * 2,2,1. 12604
-  * 4,4,3. 12605
   * 6,6,4. 12606
   * 8,8,5. To submit
 
