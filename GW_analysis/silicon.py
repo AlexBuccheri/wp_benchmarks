@@ -54,7 +54,7 @@ def print_data(n_empty, q_points, gaps):
 
 if __name__ == "__main__":
     # Notebook Results directory
-    root = 'GW_results/results/silicon'
+    root = 'GW_results/silicon'
     subdirectory = '_percent_empty'
 
     q_points = [[2, 2, 2], [4, 4, 4], [6, 6, 6], [8, 8, 8]]

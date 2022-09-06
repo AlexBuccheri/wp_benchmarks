@@ -55,7 +55,7 @@ def print_data(n_empty, q_points, gaps):
 
 if __name__ == "__main__":
     # Notebook Results directory
-    root = 'GW_results/results/tio2'
+    root = 'GW_results/tio2'
     subdirectory = '_percent_empty'
 
     q_points = [[2, 2, 3], [4, 4, 6], [6, 6, 10]]

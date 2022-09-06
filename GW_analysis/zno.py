@@ -53,7 +53,7 @@ def print_data(n_empty, q_points, gaps):
 
 if __name__ == "__main__":
     # Notebook Results directory
-    root = 'GW_results/results/zno'
+    root = 'GW_results/zno'
     subdirectory = '_percent_empty'
 
     q_points = [[2, 2, 1], [4, 4, 3], [6, 6, 4], [8, 8, 5]]
@@ -78,4 +78,28 @@ if __name__ == "__main__":
     if save_plots:
         plt.savefig('zno_bs.jpeg', dpi=300, facecolor='w', edgecolor='w',
                     orientation='portrait', transparent=True, bbox_inches=None, pad_inches=0.1)
+
+
+"""
+Comparison to Dima's results. Move to notebook.
+
+For WZ ZnO.
+
+Band gap (eV) using 100 % of empty states
+# q-grid, Fundamental Gap (direct)
+[2, 2, 1] 2.3654858063637367
+[4, 4, 3] 2.7834526991021127
+[6, 6, 4] 2.83433799138211   (51 meV change w.r.t. prior grid)
+[8, 8, 5] ?
+
+From PHYSICAL REVIEW B 94, 035118 (2016).
+Dima’s value  2.94 eV, which is ~ 100 meV larger than mine. 
+
+Potential Differences:
+* LO Basis. Extract from the paper.
+* Singularity. Extract from the paper.
+* Lattice constants. Dima. 3.250 5.207. Alex 3.2494 5.2038
+* q-samplng. Extract from the paper.
+* MT radii and rgkmax.
+"""
 
