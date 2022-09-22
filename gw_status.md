@@ -1,28 +1,25 @@
+# GS Runs to Perform
+
+* C1 SCF. 12777. wp2/c1/groundstate
+* C1 band structure
+* E1 SCF
+* E1 band structure
+
+
 # GW Runs to Perform
 
 ## Silicon
-* 50% q = 8,8,8.  Try HAWK
-* 100% q = 8,8,8. Try HAWK
-* 
-At which point Si is done.
+* 50% q = 8,8,8.
 
 ## ZnO
-* 25% for [8,8,5]. To submit
-* For 50%, just use the resources used for 100%
-  * 6,6,4. 12606
-  * 8,8,5. To submit
-
-At which point ZnO is done.
+* 25% for [8,8,5]. 13307. From this, can infer the error from [6,6,4] to [8,8,5]
   
 ## TiO2
-* 10% 
-  * 6,6,10. 12607. Using same resources as 25%
-* 50%
-  * 2,2,3. To submit
-  * 4,4,6. To submit
-  * 6,6,10. To submit
-
-At which point TiO2 is done.
+* [4,4,6] is essentially converged k-sampling.  
+* Run [4,4,6] at 30%, 40% and 50% of total empty states.
+* 30 = 13313
+* 40 = 13315
+* 50 = See how 30 and 40% do
 
 ## ZrO2
 * Process. Details need adding to notebook
