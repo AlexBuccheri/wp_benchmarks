@@ -22,7 +22,8 @@
 * 50 = See how 30 and 40% do
 
 ## ZrO2
-* Process. Details need adding to notebook
+* Results look entirely consistent
+* Could look convergence w.r.t empty states and run [8,8,8]
 
 ## E1.
 * Waiting on ground state
