@@ -68,6 +68,13 @@ if __name__ == "__main__":
         gaps = band_gaps_vs_q(path, q_points)
         print_data(n_empty, q_points, gaps)
 
+    # Fewer frequency points
+    print('Reduced frrequency points from 32 to 16'
+          'Error looks large')
+    path = os.path.join(root, '10_percent_empty_freq16')
+    gaps = band_gaps_vs_q(path, q_points)
+    print_data('10', q_points, gaps)
+
     # Plot data
     print("As the q-grid becomes more dense, TiO2 switches from direct gap to indirect gap")
 

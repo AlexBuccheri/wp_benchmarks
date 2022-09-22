@@ -1,0 +1,255 @@
+ 
+================================================================================
+=                            Main GW output file                               =
+================================================================================
+ 
+ 
+********************************************************************************
+*                            GW input parameters                               *
+********************************************************************************
+ 
+ 
+ GW taskname:
+ 
+   g0w0 - G0W0 run
+ 
+--------------------------------------------------------------------------------
+ 
+ Frequency integration parameters:
+ Number of frequencies:           16
+ Cutoff frequency:    1.00000000000000     
+ Grid type:
+   gaule2 - Grid for double Gauss-Legendre quadrature,
+            from 0 to freqmax and from freqmax to infinity
+ Convolution method:
+   imfreq : weights calculated for imaginary frequecies
+ 
+--------------------------------------------------------------------------------
+ 
+ Correlation self-energy parameters:
+ Solution of the QP equation:
+   0 - perturbative G0W0 without energy shift
+ Analytic continuation method:
+  pade - Thiele's reciprocal difference method (by H. J. Vidberg and J. W. Seren
+ ce, J. Low Temp. Phys. 29, 179 (1977))
+ Number of poles used in analytic continuation:           8
+ Scheme to treat singularities:
+ Auxiliary function method by P. Carrier, S. Rohra, and A. Goerling, PRB 75, 205
+ 126 (2007)
+ 
+--------------------------------------------------------------------------------
+ 
+ Mixed product basis parameters:
+   MT part:
+     Angular momentum cutoff:            6
+     Linear dependence tolerance factor:   1.000000000000000E-004
+   Interstitial:
+     Plane wave cutoff (in units of Gkmax):    1.00000000000000     
+ 
+--------------------------------------------------------------------------------
+ 
+ Bare Coulomb potential parameters:
+   Plane wave cutoff (in units of Gkmax*input%gw%MixBasis%gmb): 
+   2.00000000000000     
+   Error tolerance for structure constants:   1.000000000000000E-015
+   Tolerance factor to reduce the MB size based on
+   the eigenvectors of the bare Coulomb potential:   0.100000000000000     
+ 
+--------------------------------------------------------------------------------
+ 
+ Screened Coulomb potential parameters:
+   Type of averaging: isotropic
+  Averaging direction:   1.0000  1.0000  1.0000
+ 
+--------------------------------------------------------------------------------
+ 
+ Core electrons treatment:
+   xal - Core states are included in exchange but not in correlation
+ 
+--------------------------------------------------------------------------------
+ 
+ Number of empty states (GW):          352
+ Quasiparticle band range:      20     32
+ 
+   k/q-points grid:            2           2           3
+ 
+--------------------------------------------------------------------------------
+-                           Mixed product WF info                              -
+--------------------------------------------------------------------------------
+ 
+  Maximal number of MT wavefunctions per atom:         2916
+  Total number of MT wavefunctions:                   15000
+  Maximal number of PW wavefunctions:                  1556
+  Total number of mixed-product wavefunctions:        16556
+ 
+ 
+--------------------------------------------------------------------------------
+-                      Kohn-Sham bandstructure analysis                        -
+--------------------------------------------------------------------------------
+ 
+ Fermi energy:     0.2667
+ Energy range:    -1.8483    6.5736
+ Band index of VBM:  24
+ Band index of CBM:  25
+ 
+ Direct BandGap (eV):                      1.8088
+ at k      =    0.000   0.000   0.000 ik =     1
+ Optical BandGap (eV):                     1.8088
+ 
+--------------------------------------------------------------------------------
+ 
+ Maximum number of LAPW states:                     3542
+ Minimal number of LAPW states:                     3502
+ Number of states used in GW:
+     - total KS                                      377
+     - occupied                                       24
+     - unoccupied                                    352
+     - dielectric function                           377
+     - self energy                                   377
+ Energy of the highest unoccupied state:        6.573551
+ Number of valence electrons:                         48
+ Number of valence electrons treated in GW:           10
+ 
+--------------------------------------------------------------------------------
+-                               frequency grid                                 -
+--------------------------------------------------------------------------------
+ 
+ Type: < fgrid >
+   - Grid for double Gauss-Legendre quadrature,
+     from 0 to freqmax and from freqmax to infinity
+ Convolution method: < fconv >
+   - imfreq : weights calculated for imaginary frequecies
+ Number of frequencies: < nomeg >          16
+ Cutoff frequency: < freqmax >   1.00000000000000     
+ frequency list: < #    freqs    weight >
+   1  1.9855071751E-02  5.0614268145E-02
+   2  0.1016667613      0.1111905172    
+   3  0.2372337950      0.1568533229    
+   4  0.4082826788      0.1813418917    
+   5  0.5917173212      0.1813418917    
+   6  0.7627662050      0.1568533229    
+   7  0.8983332387      0.1111905172    
+   8  0.9801449282      5.0614268145E-02
+   9   1.020257282      5.2685653046E-02
+  10   1.113172659      0.1377821040    
+  11   1.311017706      0.2695943819    
+  12   1.689996159      0.5179282224    
+  13   2.449283430       1.087868072    
+  14   4.215251035       2.787023374    
+  15   9.836056419       10.75746081    
+  16   50.36496531       128.3896574    
+ 
+--------------------------------------------------------------------------------
+ 
+ 
+--------------------------------------------------------------------------------
+-                  Peak memory estimate (Mb, per process):                     -
+--------------------------------------------------------------------------------
+ 
+ Global data:                              1.84
+ <n|Vxc|n>:                                0.03
+ BZ integration weights:                   0.07
+ PW-IPW overlap matrix:                  292.51
+ Coulomb potential:                     4182.58
+ KS eigenvectors:                         51.93
+ Minm:                                  3142.90
+ Momentum matrix elements:                 6.85
+ (q,omega)-BZ integration weights:       442.90
+ Dielectric function:                   1395.35
+ M*W*M:                                    1.20
+ Self-energy:                              0.05
+ _______________________________________________
+ Total G0W0:                           13620.52
+ 
+--------------------------------------------------------------------------------
+ 
+ 
+================================================================================
+=                                  GW cycle                                    =
+================================================================================
+ 
+ - Maximum singular eigenvector ###
+immax, max(wi0new), barcev(immax):    1       0.984     0.000119
+ Info(setbarcev): Product basis size has been changed
+  - Old basis set size =       16551
+  - New basis set size =       16550
+ - Maximum singular eigenvector ###
+immax, max(wi0new), barcev(immax):    1       0.984     0.000119
+ Info(setbarcev): Product basis size has been changed
+  - Old basis set size =       16551
+  - New basis set size =        3684
+ Info(setbarcev): Product basis size has been changed
+  - Old basis set size =       16531
+  - New basis set size =        3665
+ Info(setbarcev): Product basis size has been changed
+  - Old basis set size =       16531
+  - New basis set size =        3665
+ 
+--------------------------------------------------------------------------------
+-                                     KS                                       -
+--------------------------------------------------------------------------------
+ 
+ Fermi energy:     0.2667
+ Energy range:     0.1188    0.4761
+ Band index of VBM:  24
+ Band index of CBM:  25
+ 
+ Direct BandGap (eV):                      1.8088
+ at k      =    0.000   0.000   0.000 ik =     1
+ Optical BandGap (eV):                     1.8088
+ 
+--------------------------------------------------------------------------------
+ 
+ 
+ Perform perturbative G0W0 without energy shift
+ 
+ 
+--------------------------------------------------------------------------------
+-                                    G0W0                                      -
+--------------------------------------------------------------------------------
+ 
+ Fermi energy:     0.0182
+ Energy range:    -0.1587    0.2478
+ Band index of VBM:  24
+ Band index of CBM:  25
+ 
+ Direct BandGap (eV):                      3.3466
+ at k      =    0.000   0.000   0.000 ik =     1
+ Optical BandGap (eV):                     3.3466
+ 
+--------------------------------------------------------------------------------
+ 
+ 
+================================================================================
+=                          GW timing info (seconds)                            =
+================================================================================
+ 
+ Initialization                             :       188.63
+     - init_scf                             :        54.96
+     - init_kpt                             :         0.17
+     - init_eval                            :         0.01
+     - init_freq                            :         0.00
+     - init_mb                              :       133.32
+ Subroutines                                : 
+     - calcpmat                             :        57.57
+     - calcbarcmb                           :      2477.98
+     - BZ integration weights               :        18.46
+     Dielectric function                    :      5356.33
+     - head                                 :         0.12
+     - wings                                :         0.00
+     - body                                 :         0.00
+     - inversion                            :       131.23
+     WF products expansion                  :         8.05
+     - diagsgi                              :         4.11
+     - calcmpwipw                           :         3.93
+     - calcmicm                             :         0.00
+     - calcminc                             :         0.42
+     - calcminm                             :      3776.39
+     Self-energy                            :      2699.46
+     - calcselfx                            :       783.02
+     - calcselfc                            :      1916.44
+     - calcvxcnn                            :        51.15
+     - input/output                         :         5.90
+ _________________________________________________________
+ Total                                      :     12592.71
+ 
